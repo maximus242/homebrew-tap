@@ -7,6 +7,7 @@ class Grokcode < Formula
   sha256 "be95936ebed0a03db8c6f15d6a61bbc9cf03003ce3c2e5047b9e8317c2a1ca14"
   license "MIT"
 
+  depends_on "rust" => :build
   depends_on "python@3.12"
 
   resource "annotated-types" do
